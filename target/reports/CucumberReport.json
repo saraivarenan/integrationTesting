@@ -1,0 +1,1628 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 157817700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario gostaria de salvar um processo",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioGostariaDeSalvarUmProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3574400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o o usuário informar o \"vara\" com o valor igual a \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 24
+                },
+                {
+                  "val": "5",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o o usuário informar o \"numero_processo\" com o valor igual a \"1985851\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 24
+                },
+                {
+                  "val": "1985851",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o o usuário informar o \"natureza\" com o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 24
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 88900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o o usuário informar o \"partes\" com o valor igual a \"Renax X Thiago\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 24
+                },
+                {
+                  "val": "Renax X Thiago",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 162200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o o usuário informar o \"urgente\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 73300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o o usuário informar o \"arbitramento\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 390300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o o usuário informar o \"assistente_social\" com o valor igual a \"Agapito\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 24
+                },
+                {
+                  "val": "Agapito",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 72900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o o usuário informar o \"data_entrada\" com o valor igual a \"14/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 24
+                },
+                {
+                  "val": "14/12/2020",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 515601,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o o usuário informar o \"data_saida\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 75300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o o usuário informar o \"data_agendamento\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 63
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 67299,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o o usuário informar o \"status\" com o valor igual a \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 24
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63601,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o o usuário informar o \"observacao\" com o valor igual a \"Teste Observacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 24
+                },
+                {
+                  "val": "Teste Observacao",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 148800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Criação de novo processo - POST",
+        "description": "",
+        "id": "crud-de-processos;criação-de-novo-processo---post",
+        "after": [
+          {
+            "result": {
+              "duration": 14101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dAgapito, data_agendamento\u003d, data_entrada\u003d14/12/2020, data_saida\u003d, natureza\u003dCriminal, numero_processo\u003d1985851, observacao\u003dTeste Observacao, partes\u003dRenax X Thiago, status\u003dAguardando, urgente\u003dS, vara\u003d5} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2598,\"vara\":\"5\",\"numero_processo\":\"1985851\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:20.337Z\",\"updated_at\":\"2020-12-15T01:10:20.337Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2598.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 3854390200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "o usuário clicar no botão salvar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3098700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "o usuário deveria ver a mensagem \"salvo com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "salvo com sucesso",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@processos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 26300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario gostaria de salvar um processo",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioGostariaDeSalvarUmProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 67401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o o usuário informar o \"vara\" com o valor igual a \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 24
+                },
+                {
+                  "val": "5",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o o usuário informar o \"numero_processo\" com o valor igual a \"1985851\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 24
+                },
+                {
+                  "val": "1985851",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 48300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o o usuário informar o \"natureza\" com o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 24
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3387000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o o usuário informar o \"partes\" com o valor igual a \"Renax X Thiago\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 24
+                },
+                {
+                  "val": "Renax X Thiago",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 124800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o o usuário informar o \"urgente\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 47299,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o o usuário informar o \"arbitramento\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 220900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o o usuário informar o \"assistente_social\" com o valor igual a \"Agapito\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 24
+                },
+                {
+                  "val": "Agapito",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 55001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o o usuário informar o \"data_entrada\" com o valor igual a \"14/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 24
+                },
+                {
+                  "val": "14/12/2020",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o o usuário informar o \"data_saida\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o o usuário informar o \"data_agendamento\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 63
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o o usuário informar o \"status\" com o valor igual a \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 24
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63601,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o o usuário informar o \"observacao\" com o valor igual a \"Teste Observacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 24
+                },
+                {
+                  "val": "Teste Observacao",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Selecao de um processo - GET",
+        "description": "",
+        "id": "crud-de-processos;selecao-de-um-processo---get",
+        "after": [
+          {
+            "result": {
+              "duration": 16201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dAgapito, data_agendamento\u003d, data_entrada\u003d14/12/2020, data_saida\u003d, natureza\u003dCriminal, numero_processo\u003d1985851, observacao\u003dTeste Observacao, partes\u003dRenax X Thiago, status\u003dAguardando, urgente\u003dS, vara\u003d5} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2599,\"vara\":\"5\",\"numero_processo\":\"1985851\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:21.413Z\",\"updated_at\":\"2020-12-15T01:10:21.413Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2599.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 425206600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o usuário clicar no botão salvar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/2599 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":2599,\"vara\":\"5\",\"numero_processo\":\"1985851\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:21.413Z\",\"updated_at\":\"2020-12-15T01:10:21.413Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2599.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 402788700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "o usuário clicar no botão mostrar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoMostrar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 121900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "o usuário deveria ver a mensagem \"sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sucesso",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 15465300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o usuário visualiza o campo \"numero_processo\" com o valor \"1985851\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 29
+                },
+                {
+                  "val": "1985851",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oUsuárioVisualizaOCampoComOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@processos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 30400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario gostaria de salvar um processo",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioGostariaDeSalvarUmProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 67600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o o usuário informar o \"vara\" com o valor igual a \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 24
+                },
+                {
+                  "val": "5",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 66799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o o usuário informar o \"numero_processo\" com o valor igual a \"1985851\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 24
+                },
+                {
+                  "val": "1985851",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o o usuário informar o \"natureza\" com o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 24
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 51600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o o usuário informar o \"partes\" com o valor igual a \"Renax X Thiago\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 24
+                },
+                {
+                  "val": "Renax X Thiago",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o o usuário informar o \"urgente\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 95499,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o o usuário informar o \"arbitramento\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 67700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o o usuário informar o \"assistente_social\" com o valor igual a \"Agapito\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 24
+                },
+                {
+                  "val": "Agapito",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 58800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o o usuário informar o \"data_entrada\" com o valor igual a \"14/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 24
+                },
+                {
+                  "val": "14/12/2020",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 49699,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o o usuário informar o \"data_saida\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 51501,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o o usuário informar o \"data_agendamento\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 63
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 45600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o o usuário informar o \"status\" com o valor igual a \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 24
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 62600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o o usuário informar o \"observacao\" com o valor igual a \"Teste Observacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 24
+                },
+                {
+                  "val": "Teste Observacao",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Alteração de um processo - PUT",
+        "description": "",
+        "id": "crud-de-processos;alteração-de-um-processo---put",
+        "after": [
+          {
+            "result": {
+              "duration": 12800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dAgapito, data_agendamento\u003d, data_entrada\u003d14/12/2020, data_saida\u003d, natureza\u003dCriminal, numero_processo\u003d1985851, observacao\u003dTeste Observacao, partes\u003dRenax X Thiago, status\u003dAguardando, urgente\u003dS, vara\u003d5} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2600,\"vara\":\"5\",\"numero_processo\":\"1985851\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:22.229Z\",\"updated_at\":\"2020-12-15T01:10:22.229Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2600.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 392252501,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "o usuário clicar no botão salvar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 74699,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "alterar o campo \"numero_processo\" para o valor \"3333\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 17
+                },
+                {
+                  "val": "3333",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessosSteps.alterarOCampoParaOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "output": [
+              "METHOD: [ PUT (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/2600 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dAgapito, data_agendamento\u003d, data_entrada\u003d14/12/2020, data_saida\u003d, natureza\u003dCriminal, numero_processo\u003d3333, observacao\u003dTeste Observacao, partes\u003dRenax X Thiago, status\u003dAguardando, urgente\u003dS, vara\u003d5} ]",
+              "------------------------------------",
+              "METHOD: [ PUT (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":2600,\"vara\":\"5\",\"numero_processo\":\"3333\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:22.229Z\",\"updated_at\":\"2020-12-15T01:10:22.654Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2600.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 410533299,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "o usuario clicar em editar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarEmEditar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 117899,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o usuário deveria ver a mensagem \"sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sucesso",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@processos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 27400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario gostaria de salvar um processo",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioGostariaDeSalvarUmProcesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 58200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o o usuário informar o \"vara\" com o valor igual a \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 24
+                },
+                {
+                  "val": "5",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 74500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o o usuário informar o \"numero_processo\" com o valor igual a \"1985851\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 24
+                },
+                {
+                  "val": "1985851",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 58899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o o usuário informar o \"natureza\" com o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 24
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o o usuário informar o \"partes\" com o valor igual a \"Renax X Thiago\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 24
+                },
+                {
+                  "val": "Renax X Thiago",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 41699,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o o usuário informar o \"urgente\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o o usuário informar o \"arbitramento\" com o valor igual a \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 24
+                },
+                {
+                  "val": "S",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 51399,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o o usuário informar o \"assistente_social\" com o valor igual a \"Agapito\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente_social",
+                  "offset": 24
+                },
+                {
+                  "val": "Agapito",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o o usuário informar o \"data_entrada\" com o valor igual a \"14/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 24
+                },
+                {
+                  "val": "14/12/2020",
+                  "offset": 59
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o o usuário informar o \"data_saida\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_saida",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 45700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o o usuário informar o \"data_agendamento\" com o valor igual a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_agendamento",
+                  "offset": 24
+                },
+                {
+                  "val": "",
+                  "offset": 63
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 75500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o o usuário informar o \"status\" com o valor igual a \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 24
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o o usuário informar o \"observacao\" com o valor igual a \"Teste Observacao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "observacao",
+                  "offset": 24
+                },
+                {
+                  "val": "Teste Observacao",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oOUsuarioInformarOComOValorIgualA(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Delete de um processo - DELETE",
+        "description": "",
+        "id": "crud-de-processos;delete-de-um-processo---delete",
+        "after": [
+          {
+            "result": {
+              "duration": 8200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistente_social\u003dAgapito, data_agendamento\u003d, data_entrada\u003d14/12/2020, data_saida\u003d, natureza\u003dCriminal, numero_processo\u003d1985851, observacao\u003dTeste Observacao, partes\u003dRenax X Thiago, status\u003dAguardando, urgente\u003dS, vara\u003d5} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":2601,\"vara\":\"5\",\"numero_processo\":\"1985851\",\"natureza\":\"Criminal\",\"partes\":\"Renax X Thiago\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Agapito\",\"data_entrada\":\"2020-12-14\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"Teste Observacao\",\"created_at\":\"2020-12-15T01:10:23.059Z\",\"updated_at\":\"2020-12-15T01:10:23.059Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/2601.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 405902199,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "o usuário clicar no botão salvar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "output": [
+              "METHOD: [ DELETE (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/2601 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ DELETE (Response) ]",
+              "Status Code: [ 204 ]",
+              "Response: [  ]",
+              ""
+            ],
+            "result": {
+              "duration": 392664200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "o usuario clicar em Excluir",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarEmExcluir()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 155499,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "o usuário deveria ver a mensagem \"no content\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no content",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/2601 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 404 ]",
+              "Response: [ {\"status\":404,\"error\":\"Not Found\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 345740699,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "o usuário clicar no botão mostrar",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoMostrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 115000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "o usuário deveria ver a mensagem \"not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not found",
+                  "offset": 34
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@processos"
+          }
+        ]
+      }
+    ],
+    "name": "CRUD de Processos",
+    "description": "",
+    "id": "crud-de-processos",
+    "keyword": "Funcionalidade",
+    "uri": "process/CRUDProcess.feature"
+  }
+]

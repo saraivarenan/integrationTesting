@@ -1,0 +1,8 @@
+definition\User.class
+steps\GeneralSteps.class
+steps\CrudUserSteps.class
+runner\RunnerTest.class
+steps\CrudJsonPlaceHolderSteps.class
+support\RESTSupport.class
+definition\Usuario.class
+steps\Hooks.class

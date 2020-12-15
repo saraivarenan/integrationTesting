@@ -1,1 +1,2 @@
-# integrationTesting
+Renan Saraiva
+Thiago Keller
