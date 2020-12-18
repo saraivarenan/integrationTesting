@@ -75,6 +75,6 @@ Funcionalidade:  CRUD de Processos
      Exemplos:
      | numero_processo | natureza | partes | urgente | arbitramento | assistente_social | data_entrada | data_saida | data_agendamento | status | observacao | mensagem | vara |
      | 123 | Criminal | RenanxThiago       | S       | N            |Agapito            | 14/12/2020   |          |                |Aguardando|              |salvo com sucesso | 3|
-     | 124 | Criminal | RenanxThiago       | S       | N            |Agapito            | 15/12/2020   |          |                |Aguardando|              |salvo com sucesso | 3 |
+     | 124 |  | RenanxThiago       | S       | N            |Agapito            | 15/12/2020   |          |                |Aguardando|              |entidade não processada| 3 |
      | 125 | Criminal | RenanxThiago       | S       | N            |Agapito            | 16/12/2020   |          |                |Aguardando|              |salvo com sucesso | 3 |
-     | 126 | Criminal | RenanxThiago       | S       | N            |Agapito            | 17/12/2020   |          |                |Aguardando|              |salvo com sucesso | 3 |
+     | 126 | Criminal |        | S       | N            |Agapito            | 17/12/2020   |          |                |Aguardando|              |entidade não processada | 3 |

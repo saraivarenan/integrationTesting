@@ -28,7 +28,7 @@ public class GeneralSteps {
         messageJson.put("no content", 204);
         messageJson.put("not found", 404);
         messageJson.put("unauthorized", 401);
-        messageJson.put("entidade", 422);
+        messageJson.put("entidade não processada", 422);
         messageJson.put("Unprocessable Entity", 422);
 
         Assert.assertEquals(messageJson.get(type),RESTSupport.getResponseCode());

@@ -24,7 +24,9 @@ public class ProcessosSteps {
     @Quando("^o usuário clicar no botão salvar$")
     public void oUsuarioClicarNoBotaoSalvar() {
         RESTSupport.executePost(Processo.GetEndPoint(), Processo.getCampos());
-        Processo.setId(RESTSupport.key("id").toString());
+        if (RESTSupport.key("id") != null) {
+            Processo.setId(RESTSupport.key("id").toString());
+        }
 
     }
 
